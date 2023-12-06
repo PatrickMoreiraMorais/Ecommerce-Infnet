@@ -1,0 +1,33 @@
+.footerStyle{
+    color: #FFFF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} .logoStyle{
+    width: 100px;
+    grid-area: title;
+} .titleStyle{
+    grid-area: title;
+} .containerGrid{
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'title'
+    'direitos';
+    background-color: #363636;
+    justify-content: center;
+    align-content: center;
+} .direitos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+    text-align:center;
+} @media(max-width: 450px) {
+  .direitos{
+    font-size: 10px;
+  }
+}

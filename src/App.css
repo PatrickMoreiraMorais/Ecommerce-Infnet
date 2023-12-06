@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+} :target {
+  scroll-margin-top: 145px; 
+}
+:root {
+  --main-color: #cca43b;
+  --second-color: #feffea;
+  --third-color: #d4c2fc;
+  --main-color-text: #424242;
+  --second-color-text: #242f40;
+}
+.bodyApp {
+  width: 100%;
+  height: 100%;
+  background-color: #c9c9c9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  width: 100%;
+  height: 100%;
+} @media(min-width: 751px) {
+  .productDivStyle{
+    display:flex;
+    justify-content: space-evenly
+  }
+}

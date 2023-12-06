@@ -1,0 +1,20 @@
+.commentsUserStyle {
+  width: 105%;
+  height: 65%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: var(--second-color);
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.listStyle {
+  list-style-type: none;
+} @media(min-width: 751px){
+ .commentsUserStyle{
+   width: 700px;
+   height: 300px;
+  
+}
+}
